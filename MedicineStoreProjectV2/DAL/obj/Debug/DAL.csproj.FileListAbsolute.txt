@@ -1,0 +1,12 @@
+G:\C#Work\MedicineStoreProjectV2\DAL\bin\Debug\DAL.dll
+G:\C#Work\MedicineStoreProjectV2\DAL\bin\Debug\DAL.pdb
+G:\C#Work\MedicineStoreProjectV2\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+G:\C#Work\MedicineStoreProjectV2\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+G:\C#Work\MedicineStoreProjectV2\DAL\obj\Debug\DAL.dll
+G:\C#Work\MedicineStoreProjectV2\DAL\obj\Debug\DAL.pdb
+G:\ITI-3Mon\Visual C#\C#Project\MedicineStoreProjectV2\DAL\bin\Debug\DAL.dll
+G:\ITI-3Mon\Visual C#\C#Project\MedicineStoreProjectV2\DAL\bin\Debug\DAL.pdb
+G:\ITI-3Mon\Visual C#\C#Project\MedicineStoreProjectV2\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+G:\ITI-3Mon\Visual C#\C#Project\MedicineStoreProjectV2\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+G:\ITI-3Mon\Visual C#\C#Project\MedicineStoreProjectV2\DAL\obj\Debug\DAL.dll
+G:\ITI-3Mon\Visual C#\C#Project\MedicineStoreProjectV2\DAL\obj\Debug\DAL.pdb

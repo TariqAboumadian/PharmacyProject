@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33502.453
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MedicineStoreProjectV2", "MedicineStoreProjectV2\MedicineStoreProjectV2.csproj", "{8CDEE09D-89ED-4A18-B744-5AD01ACEA008}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "DAL\DAL.csproj", "{8AA3758B-7339-4E95-9E93-F96EB106E096}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BLL", "BLL\BLL.csproj", "{FBC2EAC4-DF93-494A-BE61-AF82E205147F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8CDEE09D-89ED-4A18-B744-5AD01ACEA008}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CDEE09D-89ED-4A18-B744-5AD01ACEA008}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CDEE09D-89ED-4A18-B744-5AD01ACEA008}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8CDEE09D-89ED-4A18-B744-5AD01ACEA008}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8AA3758B-7339-4E95-9E93-F96EB106E096}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8AA3758B-7339-4E95-9E93-F96EB106E096}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8AA3758B-7339-4E95-9E93-F96EB106E096}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8AA3758B-7339-4E95-9E93-F96EB106E096}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FBC2EAC4-DF93-494A-BE61-AF82E205147F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBC2EAC4-DF93-494A-BE61-AF82E205147F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBC2EAC4-DF93-494A-BE61-AF82E205147F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBC2EAC4-DF93-494A-BE61-AF82E205147F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D18817AC-5468-41E7-AE99-BA4A16EE17C9}
+	EndGlobalSection
+EndGlobal

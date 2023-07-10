@@ -1,0 +1,305 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{8CDEE09D-89ED-4A18-B744-5AD01ACEA008}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>MedicineStoreProjectV2</RootNamespace>
+    <AssemblyName>MedicineStoreProjectV2</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>F:\proj\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>2</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>4F36236457E6D110ED70B3924AE51B4EEDC65AA4</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>MedicineStoreProjectV2_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Guna.UI2 %281%29">
+      <HintPath>C:\Users\TARIQ\Downloads\Guna.UI2 (1).dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AdminControllers\UC_AddUser.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="AdminControllers\UC_AddUser.Designer.cs">
+      <DependentUpon>UC_AddUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminControllers\UC_ChangePassword.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="AdminControllers\UC_ChangePassword.Designer.cs">
+      <DependentUpon>UC_ChangePassword.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminControllers\UC_GetReports.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="AdminControllers\UC_GetReports.Designer.cs">
+      <DependentUpon>UC_GetReports.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminControllers\UC_ProfileUpdate.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="AdminControllers\UC_ProfileUpdate.Designer.cs">
+      <DependentUpon>UC_ProfileUpdate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminControllers\UC_ViewUser.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="AdminControllers\UC_ViewUser.Designer.cs">
+      <DependentUpon>UC_ViewUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Administrator.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Administrator.Designer.cs">
+      <DependentUpon>Administrator.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DGVPrinter.cs" />
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MangeCompanymed.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MangeCompanymed.Designer.cs">
+      <DependentUpon>MangeCompanymed.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MangeCompany\UC_AddCompany.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MangeCompany\UC_AddCompany.Designer.cs">
+      <DependentUpon>UC_AddCompany.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MangeCompany\UC_CompanyMedicines.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MangeCompany\UC_CompanyMedicines.Designer.cs">
+      <DependentUpon>UC_CompanyMedicines.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MangeCompany\UC_EditCompany.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MangeCompany\UC_EditCompany.Designer.cs">
+      <DependentUpon>UC_EditCompany.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MangeCompany\UC_ViewCompany.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MangeCompany\UC_ViewCompany.Designer.cs">
+      <DependentUpon>UC_ViewCompany.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MangeMeddicine.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MangeMeddicine.Designer.cs">
+      <DependentUpon>MangeMeddicine.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MangeMedicine\SalesReports.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MangeMedicine\SalesReports.Designer.cs">
+      <DependentUpon>SalesReports.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MangeMedicine\UC_AddMedicine.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MangeMedicine\UC_AddMedicine.Designer.cs">
+      <DependentUpon>UC_AddMedicine.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MangeMedicine\Uc_medicineValidityCheck.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MangeMedicine\Uc_medicineValidityCheck.Designer.cs">
+      <DependentUpon>Uc_medicineValidityCheck.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MangeMedicine\UC_SellMedicine.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MangeMedicine\UC_SellMedicine.Designer.cs">
+      <DependentUpon>UC_SellMedicine.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MangeMedicine\UC_UpdateMedicine.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MangeMedicine\UC_UpdateMedicine.Designer.cs">
+      <DependentUpon>UC_UpdateMedicine.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MangeMedicine\UC_ViewMedicine.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MangeMedicine\UC_ViewMedicine.Designer.cs">
+      <DependentUpon>UC_ViewMedicine.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Splash.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Splash.Designer.cs">
+      <DependentUpon>Splash.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AdminControllers\UC_AddUser.resx">
+      <DependentUpon>UC_AddUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminControllers\UC_ChangePassword.resx">
+      <DependentUpon>UC_ChangePassword.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminControllers\UC_GetReports.resx">
+      <DependentUpon>UC_GetReports.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminControllers\UC_ProfileUpdate.resx">
+      <DependentUpon>UC_ProfileUpdate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminControllers\UC_ViewUser.resx">
+      <DependentUpon>UC_ViewUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Administrator.resx">
+      <DependentUpon>Administrator.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MangeCompanymed.resx">
+      <DependentUpon>MangeCompanymed.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MangeCompany\UC_AddCompany.resx">
+      <DependentUpon>UC_AddCompany.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MangeCompany\UC_CompanyMedicines.resx">
+      <DependentUpon>UC_CompanyMedicines.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MangeCompany\UC_EditCompany.resx">
+      <DependentUpon>UC_EditCompany.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MangeCompany\UC_ViewCompany.resx">
+      <DependentUpon>UC_ViewCompany.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MangeMeddicine.resx">
+      <DependentUpon>MangeMeddicine.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MangeMedicine\SalesReports.resx">
+      <DependentUpon>SalesReports.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MangeMedicine\UC_AddMedicine.resx">
+      <DependentUpon>UC_AddMedicine.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MangeMedicine\Uc_medicineValidityCheck.resx">
+      <DependentUpon>Uc_medicineValidityCheck.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MangeMedicine\UC_SellMedicine.resx">
+      <DependentUpon>UC_SellMedicine.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MangeMedicine\UC_UpdateMedicine.resx">
+      <DependentUpon>UC_UpdateMedicine.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MangeMedicine\UC_ViewMedicine.resx">
+      <DependentUpon>UC_ViewMedicine.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Splash.resx">
+      <DependentUpon>Splash.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="MedicineStoreProjectV2_TemporaryKey.pfx" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BLL\BLL.csproj">
+      <Project>{fbc2eac4-df93-494a-be61-af82e205147f}</Project>
+      <Name>BLL</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.7.2 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

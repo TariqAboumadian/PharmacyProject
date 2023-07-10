@@ -1,0 +1,18 @@
+G:\C#Work\MedicineStoreProjectV2\BLL\obj\Debug\BLL.csproj.AssemblyReference.cache
+G:\C#Work\MedicineStoreProjectV2\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+G:\C#Work\MedicineStoreProjectV2\BLL\bin\Debug\BLL.dll
+G:\C#Work\MedicineStoreProjectV2\BLL\bin\Debug\BLL.pdb
+G:\C#Work\MedicineStoreProjectV2\BLL\bin\Debug\DAL.dll
+G:\C#Work\MedicineStoreProjectV2\BLL\bin\Debug\DAL.pdb
+G:\C#Work\MedicineStoreProjectV2\BLL\obj\Debug\BLL.csproj.CopyComplete
+G:\C#Work\MedicineStoreProjectV2\BLL\obj\Debug\BLL.dll
+G:\C#Work\MedicineStoreProjectV2\BLL\obj\Debug\BLL.pdb
+G:\ITI-3Mon\Visual C#\C#Project\MedicineStoreProjectV2\BLL\bin\Debug\BLL.dll
+G:\ITI-3Mon\Visual C#\C#Project\MedicineStoreProjectV2\BLL\bin\Debug\BLL.pdb
+G:\ITI-3Mon\Visual C#\C#Project\MedicineStoreProjectV2\BLL\bin\Debug\DAL.dll
+G:\ITI-3Mon\Visual C#\C#Project\MedicineStoreProjectV2\BLL\bin\Debug\DAL.pdb
+G:\ITI-3Mon\Visual C#\C#Project\MedicineStoreProjectV2\BLL\obj\Debug\BLL.csproj.AssemblyReference.cache
+G:\ITI-3Mon\Visual C#\C#Project\MedicineStoreProjectV2\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+G:\ITI-3Mon\Visual C#\C#Project\MedicineStoreProjectV2\BLL\obj\Debug\BLL.csproj.CopyComplete
+G:\ITI-3Mon\Visual C#\C#Project\MedicineStoreProjectV2\BLL\obj\Debug\BLL.dll
+G:\ITI-3Mon\Visual C#\C#Project\MedicineStoreProjectV2\BLL\obj\Debug\BLL.pdb
